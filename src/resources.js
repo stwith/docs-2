@@ -1,6 +1,6 @@
 const RESOURCES = [
   {
-    url: '/guides/v2-migration-guide',
+    url: '/guides/quickstart',
     type: 'Guide',
     title: 'Migrate to v2 REST API',
     description:
