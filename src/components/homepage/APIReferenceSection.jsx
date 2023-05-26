@@ -13,22 +13,20 @@ export default function APIReferenceSection() {
       </Head>
       <div className="relative mx-auto flex w-full max-w-7xl flex-col items-center gap-10 rounded-2xl bg-gradient-to-r from-black to-zinc-800 px-6 py-20 text-center text-white dark:from-zinc-100 dark:to-white dark:text-black lg:flex-row lg:p-20 lg:text-left">
         <Link
-          href="/api"
-          aria-label="API Reference"
+          href="/faq"
+          aria-label="FAQ"
           target="_blank"
           className="absolute top-8 right-8 flex h-16 w-16 items-center justify-center rounded-full bg-zinc-600/40 dark:bg-transparent"
         >
           <ArrowUpRight className="h-6 w-6 text-zinc-400 dark:text-black" />
         </Link>
         <div className="flex-1">
-          <h2 className="text-4xl">API Reference</h2>
+          <h2 className="text-4xl">FAQ</h2>
           <p className="text-zinc-400">
-            Don&apos;t worry, they are&apos;t complex. Use our
-            developer-friendly APIs and integrate video and voice communication
-            into your web, mobile, or desktop applications programmatically.
+            Don&apos;t 
           </p>
           <Link
-            href="/api"
+            href="/faq"
             className="font-medium text-primary-100 dark:text-primary"
           >
             Get started with Dyte APIs &rarr;
@@ -36,7 +34,7 @@ export default function APIReferenceSection() {
           <ul className="mt-10 flex list-none flex-col gap-4 text-left lg:pl-0">
             <li className="flex flex-col gap-1">
               <Link
-                href="/api/#/operations/createMeeting"
+                href="/faq"
                 className="group font-jakarta font-semibold text-current"
               >
                 Create a meeting
@@ -50,7 +48,7 @@ export default function APIReferenceSection() {
             </li>
             <li className="flex flex-col gap-1">
               <Link
-                href="/api/#/operations/addPreset"
+                href="/faq"
                 className="group font-jakarta font-semibold text-current"
               >
                 Add a preset
@@ -64,7 +62,7 @@ export default function APIReferenceSection() {
             </li>
             <li className="flex flex-col gap-1">
               <Link
-                href="/api/#/operations/deleteParticipant"
+                href="/faq"
                 className="group font-jakarta font-semibold text-current"
               >
                 Delete a participant

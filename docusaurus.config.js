@@ -316,10 +316,6 @@ const config = {
             className: 'new-badge',
           },
           {
-            label: 'API Reference',
-            to: '/api/',
-          },
-          {
             label: 'Resources',
             type: 'dropdown',
             className: 'dyte-dropdown resources-dropdown',
@@ -331,11 +327,6 @@ const config = {
               },
             ],
           },
-          {
-            label: 'Support',
-            to: 'https://dyte.io/contact',
-          },
-
           {
             type: 'search',
             position: 'right',
