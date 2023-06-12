@@ -29,7 +29,7 @@ export default function APIReferenceSection() {
             href="/faq"
             className="font-medium text-primary-100 dark:text-primary"
           >
-            Get started with Dyte APIs &rarr;
+            Have questions about UniPass SDK &rarr;
           </Link>
           <ul className="mt-10 flex list-none flex-col gap-4 text-left lg:pl-0">
             <li className="flex flex-col gap-1">
@@ -44,34 +44,6 @@ export default function APIReferenceSection() {
               </Link>
               <div className="text-zinc-400">
                 Create a meeting for your organization
-              </div>
-            </li>
-            <li className="flex flex-col gap-1">
-              <Link
-                href="/faq"
-                className="group font-jakarta font-semibold text-current"
-              >
-                Add a preset
-                <span className="ml-2 opacity-0 transition group-hover:translate-x-2 group-hover:opacity-100">
-                  &rarr;
-                </span>
-              </Link>
-              <div className="text-zinc-400">
-                Add a preset for the given organization ID
-              </div>
-            </li>
-            <li className="flex flex-col gap-1">
-              <Link
-                href="/faq"
-                className="group font-jakarta font-semibold text-current"
-              >
-                Delete a participant
-                <span className="ml-2 opacity-0 transition group-hover:translate-x-2 group-hover:opacity-100">
-                  &rarr;
-                </span>
-              </Link>
-              <div className="text-zinc-400">
-                Delete a particpant from the meeting
               </div>
             </li>
           </ul>

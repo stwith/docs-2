@@ -13,13 +13,10 @@ export default function HeroSection() {
       <div className="mx-auto flex max-w-7xl flex-col items-center lg:h-[540px] lg:flex-row">
         <div className="flex-1 text-center lg:text-left">
           <h1 className="mb-6 font-jakarta text-4xl font-bold lg:text-6xl">
-            Build with Dyte
+            Build with UniPass
           </h1>
           <p className="text-sm text-text-400 lg:max-w-lg lg:text-base">
-            At Dyte, we&apos;re building the future of real-time communication.
-            Integrate high-quality, programmable, and customizable live video
-            and voice into your web, mobile, and desktop applications with just
-            a few lines of code.
+            At 
           </p>
           <div className="mt-8 flex flex-col gap-4 lg:flex-row">
             <Link
@@ -42,7 +39,7 @@ export default function HeroSection() {
               light: '/static/landing-page/hero-light.png',
               dark: '/static/landing-page/hero-dark.png',
             }}
-            alt="Preview of using Dyte SDKs"
+            alt="Preview of using UniPass SDKs"
             className="max-w-[420px] lg:max-w-[560px]"
           />
         </div>
