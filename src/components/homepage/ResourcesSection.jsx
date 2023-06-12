@@ -56,19 +56,6 @@ export default function ResourcesSection() {
             <Link className="underline underline-offset-8" href="/guides/quickstart">
               Guides
             </Link>
-            <Link
-              className="underline underline-offset-8"
-              href="https://www.youtube.com/channel/UCUBSgG-Tk6w7Pe9loUR3yhw"
-            >
-              Videos
-            </Link>
-            <Link
-              className="underline underline-offset-8"
-              href="https://dyte.io/blog"
-              target="_blank"
-            >
-              Blogs
-            </Link>
           </div>
         </div>
       </div>

@@ -236,7 +236,7 @@ const plugins = [tailwindPlugin, ...docs_plugins, webpackPlugin];
 
 const fs = require('fs');
 const sdksHTML = fs.readFileSync('./src/snippets/sdks.html', 'utf-8');
-const resourcesHTML = fs.readFileSync('./src/snippets/resources.html', 'utf-8');
+// const resourcesHTML = fs.readFileSync('./src/snippets/resources.html', 'utf-8');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -315,18 +315,24 @@ const config = {
             position: 'left',
             className: 'new-badge',
           },
+
           {
-            label: 'Resources',
-            type: 'dropdown',
-            className: 'dyte-dropdown resources-dropdown',
-            items: [
-              {
-                type: 'html',
-                value: resourcesHTML,
-                className: 'dyte-dropdown',
-              },
-            ],
+            label: 'FAQ',
+            to: 'faq',
+            position: 'left',
           },
+          // {
+          //   label: 'Resources',
+          //   type: 'dropdown',
+          //   className: 'dyte-dropdown resources-dropdown',
+          //   items: [
+          //     {
+          //       type: 'html',
+          //       value: resourcesHTML,
+          //       className: 'dyte-dropdown',
+          //     },
+          //   ],
+          // },
           {
             type: 'search',
             position: 'right',
@@ -338,8 +344,8 @@ const config = {
             className: 'navbar-book-demo',
           },
           {
-            label: 'Sign Up',
-            href: 'https://dev.dyte.io/register',
+            label: 'Dashboard',
+            href: 'https://dashboard.unipass.id',
             position: 'right',
             className: 'dev-portal-signup dev-portal-link',
           },

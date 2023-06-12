@@ -4,6 +4,11 @@ import ReactMarkdown from 'react-markdown';
 
 const changeTypes = [
   {
+    name: 'breaking-changes',
+    color: '#ff0000',
+    label: 'Breaking Changes',
+  },
+  {
     name: 'features',
     color: '#00e0a5',
     label: 'Features',
