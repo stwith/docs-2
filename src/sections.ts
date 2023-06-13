@@ -38,30 +38,12 @@ const SECTIONS: Section[] = [
     icon: HTMLIcon,
     section: 'web-ui-kit',
   },
-  {
-    name: 'React UI Kit',
-    docId: 'react-ui-kit',
-    icon: ReactIcon,
-    section: 'web-ui-kit',
-  },
-  {
-    name: 'Angular UI Kit',
-    docId: 'angular-ui-kit',
-    icon: AngularIcon,
-    section: 'web-ui-kit',
-  },
 
   // - web-core-sdk
   {
     name: 'JavaScript',
     docId: 'web-core',
     icon: JSIcon,
-    section: 'web-core-sdk',
-  },
-  {
-    name: 'React',
-    docId: 'react-web-core',
-    icon: ReactIcon,
     section: 'web-core-sdk',
   },
   // Mobile SDKs

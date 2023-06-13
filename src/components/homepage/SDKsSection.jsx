@@ -121,13 +121,13 @@ export default function SDKsSection() {
             <div>
               <ul className="mb-0 flex list-none flex-col gap-2 pl-0">
                 <li>
-                  <SDKLink href="react-ui-kit" Icon={ReactIcon} label="React" />
+                  <SDKLink href="custom-auth/web" Icon={ReactIcon} label="Web" />
                 </li>
                 <li>
                   <SDKLink
-                    href="angular-ui-kit"
+                    href="custom-auth/android"
                     Icon={AngularIcon}
-                    label="Angular"
+                    label="Android"
                   />
                 </li>
                 <li>
@@ -148,9 +148,6 @@ export default function SDKsSection() {
             <ul className="mb-0 flex list-none flex-col gap-2 pl-0">
               <li>
                 <SDKLink href="web-core" Icon={JSIcon} label="JavaScript" />
-              </li>
-              <li>
-                <SDKLink href="react-web-core" Icon={ReactIcon} label="React" />
               </li>
             </ul>
           </div>

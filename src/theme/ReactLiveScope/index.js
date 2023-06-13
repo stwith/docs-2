@@ -11,7 +11,6 @@ const ReactLiveScope = {
   ...ReactUIKit,
   ...ReactWebCore,
 
-  // DemoElements used in react-ui-kit live codeblocks
   ...DemoElements,
 };
 

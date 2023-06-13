@@ -46,9 +46,7 @@ export function Center({ children, style, ...props }) {
   );
 }
 
-/**
- * DemoElements used in react-ui-kit live codeblocks
- */
+
 export default {
   Row,
   Col,
