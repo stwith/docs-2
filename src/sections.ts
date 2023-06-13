@@ -131,6 +131,43 @@ const SECTIONS: Section[] = [
     section: 'ca-sdk',
   },
 
+  // Custom Auth Wallet Connector
+  {
+    name: 'Rainbow Kit',
+    docId: 'ca-rainbowkit',
+    icon: AndroidIcon,
+    section: 'ca-wc',
+  },
+
+  // Plug & Play SDK
+  {
+    name: 'Web - Popup',
+    docId: 'pnp-popup',
+    icon: AndroidIcon,
+    section: 'pnp-sdk',
+  },
+
+  {
+    name: 'Android',
+    docId: 'pnp-android',
+    icon: AppleIcon,
+    section: 'pnp-sdk',
+  },
+
+    // Plug & Play Wallet Connector
+    {
+      name: 'Wagmi',
+      docId: 'pnp-wagmi',
+      icon: AndroidIcon,
+      section: 'pnp-wc',
+    },
+  
+    {
+      name: 'Rianbow Kit',
+      docId: 'pnp-rainbowkit',
+      icon: AppleIcon,
+      section: 'pnp-wc',
+    },
 
 ];
 
@@ -144,28 +181,28 @@ export type SectionsGroup = {
 const SECTION_GROUPS: SectionsGroup[][] = [
   [
     {
-      name: 'UI Kit',
+      name: 'Custom Auth SDK',
       section: 'ca-sdk',
+      className: 'new-badge',
       description:
-        'Use our pre-built UI components as a base to build on top of.',
+        'Try custom auth sdk.',
     },
     {
-      name: 'Core SDK',
-      section: 'web-core-sdk',
-      description: 'Build your own UI from scratch, use our low level APIs.',
+      name: 'Wallet Connector',
+      section: 'ca-wc',
+      description: 'Try custom auth wallet connector.',
     },
   ],
   [
     {
-      name: 'Prebuilt SDK',
-      section: 'mobile-sdk',
-      description: 'Use our pre-built mobile SDK, ready to go',
+      name: 'Plug & Play SDK',
+      section: 'pnp-sdk',
+      description: 'Try plug & play wallet sdk.',
     },
     {
-      name: 'Core SDK',
-      section: 'mobile-core',
-      className: 'new-badge',
-      description: 'Build your own UI from scratch, use our low level APIs.',
+      name: 'Wallet Connector',
+      section: 'pnp-wc',
+      description: 'Try plug & play wallet connector.',
     },
   ],
   [

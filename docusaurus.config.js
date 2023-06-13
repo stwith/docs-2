@@ -196,6 +196,64 @@ const docs = [
     },
   },
 
+  // Custom Auth Wallet Connector
+  {
+    id: 'ca-rainbowkit',
+    path: 'docs/custom-auth/rainbowkit',
+    routeBasePath: '/custom-auth/rainbowkit',
+    versions: {
+      current: {
+        label: '0.13.13',
+      },
+    },
+  },
+
+  // Plug & Play SDK
+  {
+    id: 'pnp-popup',
+    path: 'docs/plug-play/popup',
+    routeBasePath: '/plug-play/popup',
+    versions: {
+      current: {
+        label: '1.01.01',
+      },
+    },
+  },
+
+  {
+    id: 'pnp-android',
+    path: 'docs/plug-play/android',
+    routeBasePath: '/plug-play/android',
+    versions: {
+      current: {
+        label: '1.02.02',
+      },
+    },
+  },
+
+  // Plug & Play Wallet Connector
+  {
+    id: 'pnp-wagmi',
+    path: 'docs/plug-play/wagmi',
+    routeBasePath: '/plug-play/wagmi',
+    versions: {
+      current: {
+        label: '1.11.11',
+      },
+    },
+  },
+
+  {
+    id: 'pnp-rainbowkit',
+    path: 'docs/plug-play/rainbowkit',
+    routeBasePath: '/plug-play/rainbowkit',
+    versions: {
+      current: {
+        label: '1.12.12',
+      },
+    },
+  },
+
 ];
 
 /** @type {import('@docusaurus/plugin-content-docs').Options} */
