@@ -173,27 +173,29 @@ const docs = [
     },
   },
 
-  // Web SDKs - Old
+  // Custom Auth SDK
   {
-    id: 'react',
-    path: 'docs/react',
-    routeBasePath: '/react',
+    id: 'ca-web',
+    path: 'docs/custom-auth/web',
+    routeBasePath: '/custom-auth/web',
     versions: {
       current: {
-        label: '0.37.0',
+        label: '0.11.x',
       },
     },
   },
+
   {
-    id: 'javascript',
-    path: 'docs/javascript',
-    routeBasePath: '/javascript',
+    id: 'ca-android',
+    path: 'docs/custom-auth/android',
+    routeBasePath: '/custom-auth/android',
     versions: {
       current: {
-        label: '0.37.0',
+        label: '0.12.x',
       },
     },
   },
+
 ];
 
 /** @type {import('@docusaurus/plugin-content-docs').Options} */
@@ -298,8 +300,14 @@ const config = {
         },
         items: [
           {
+            label: 'Guides',
+            to: 'guides/quickstart',
+            position: 'left',
+          },
+          {
             label: 'SDKs',
             type: 'dropdown',
+            position: 'left',
             className: 'dyte-dropdown',
             items: [
               {
@@ -310,16 +318,11 @@ const config = {
             ],
           },
           {
-            label: 'Guides',
-            to: 'guides/quickstart',
-            position: 'left',
-            className: 'new-badge',
-          },
-
-          {
             label: 'FAQ',
             to: 'faq',
             position: 'left',
+            className: 'new-badge',
+
           },
           // {
           //   label: 'Resources',

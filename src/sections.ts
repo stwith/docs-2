@@ -21,19 +21,6 @@ export type Section = { docId: string } & (
 );
 
 const SECTIONS: Section[] = [
-  {
-    name: 'React',
-    docId: 'react',
-    icon: ReactIcon,
-    section: 'web-prebuilt',
-  },
-  {
-    name: 'JavaScript',
-    docId: 'javascript',
-    icon: JSIcon,
-    section: 'web-prebuilt',
-  },
-
   // Plugin SDKs
   // - web
   {
@@ -128,6 +115,23 @@ const SECTIONS: Section[] = [
     icon: FlutterIcon,
     section: 'mobile-sdk',
   },
+
+  // Custom Auth SDK
+  {
+    name: 'Web',
+    docId: 'ca-web',
+    icon: AndroidIcon,
+    section: 'ca-sdk',
+  },
+
+  {
+    name: 'Android',
+    docId: 'ca-android',
+    icon: AppleIcon,
+    section: 'ca-sdk',
+  },
+
+
 ];
 
 export type SectionsGroup = {
@@ -140,15 +144,8 @@ export type SectionsGroup = {
 const SECTION_GROUPS: SectionsGroup[][] = [
   [
     {
-      name: 'Prebuilt SDK',
-      section: 'web-prebuilt',
-      className: 'deprecated-badge',
-    },
-  ],
-  [
-    {
       name: 'UI Kit',
-      section: 'web-ui-kit',
+      section: 'ca-sdk',
       description:
         'Use our pre-built UI components as a base to build on top of.',
     },
