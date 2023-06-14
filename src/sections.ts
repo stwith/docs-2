@@ -31,13 +31,6 @@ const SECTIONS: Section[] = [
   },
 
   // Web SDKs
-  // - web-ui-kit
-  {
-    name: 'Web Components',
-    docId: 'ui-kit',
-    icon: HTMLIcon,
-    section: 'web-ui-kit',
-  },
 
   // - web-core-sdk
   {
@@ -47,32 +40,6 @@ const SECTIONS: Section[] = [
     section: 'web-core-sdk',
   },
   // Mobile SDKs
-  {
-    name: 'Android Core',
-    docId: 'android-core',
-    icon: AndroidIcon,
-    section: 'mobile-core',
-  },
-
-  {
-    name: 'iOS Core',
-    docId: 'ios-core',
-    icon: AppleIcon,
-    section: 'mobile-core',
-  },
-
-  {
-    name: 'React Native Core',
-    docId: 'rn-core',
-    icon: ReactIcon,
-    section: 'mobile-core',
-  },
-  {
-    name: 'Flutter Core',
-    docId: 'flutter-core',
-    icon: FlutterIcon,
-    section: 'mobile-core',
-  },
   {
     name: 'React Native',
     docId: 'react-native',

@@ -130,13 +130,6 @@ export default function SDKsSection() {
                     label="Android"
                   />
                 </li>
-                <li>
-                  <SDKLink
-                    href="ui-kit"
-                    Icon={HTMLIcon}
-                    label="Web Components"
-                  />
-                </li>
               </ul>
             </div>
           </div>
@@ -146,6 +139,9 @@ export default function SDKsSection() {
               Build with wallet connectors
             </p>
             <ul className="mb-0 flex list-none flex-col gap-2 pl-0">
+               <li>
+                <SDKLink href="custom-auth/rainbowkit" Icon={JSIcon} label="Rainbow Kit" />
+              </li>
               <li>
                 <SDKLink href="web-core" Icon={JSIcon} label="JavaScript" />
               </li>
@@ -206,24 +202,7 @@ export default function SDKsSection() {
             </p>
             <ul className="flex list-none flex-col gap-2 pl-0">
               <li>
-                <SDKLink
-                  href="android-core"
-                  Icon={KotlinIcon}
-                  label="Android"
-                />
-              </li>
-              <li>
-                <SDKLink
-                  Icon={FlutterIcon}
-                  label="Flutter"
-                  href="flutter-core"
-                />
-              </li>
-              <li>
-                <SDKLink href="rn-core" Icon={ReactIcon} label="React Native" />
-              </li>
-              <li>
-                <SDKLink href="ios-core" Icon={SwiftIcon} label="iOS" />
+                <SDKLink href="plug-play/rainbowkit" Icon={SwiftIcon} label="Rainbow Kit" />
               </li>
             </ul>
           </div>
