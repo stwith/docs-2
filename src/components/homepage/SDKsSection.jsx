@@ -170,20 +170,10 @@ export default function SDKsSection() {
             </p>
             <ul className="flex list-none flex-col gap-2 pl-0">
               <li>
-                <SDKLink href="android" Icon={KotlinIcon} label="Android" />
+                <SDKLink href="plug-play/popup" Icon={KotlinIcon} label="Web - Popup" />
               </li>
               <li>
-                <SDKLink href="ios" Icon={SwiftIcon} label="iOS" />
-              </li>
-              <li>
-                <SDKLink
-                  href="react-native"
-                  Icon={ReactIcon}
-                  label="React Native"
-                />
-              </li>
-              <li>
-                <SDKLink href="flutter" Icon={FlutterIcon} label="Flutter" />
+                <SDKLink href="plug-play/android" Icon={SwiftIcon} label="Android" />
               </li>
             </ul>
             {/* <div className="flex flex-1 flex-col justify-end">

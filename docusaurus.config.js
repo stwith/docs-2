@@ -19,11 +19,6 @@ const meta = {
 /** @type {import('@docusaurus/plugin-content-docs').Options[]} */
 const docs = [
   {
-    id: 'cli',
-    path: 'docs/cli',
-    routeBasePath: '/cli',
-  },
-  {
     id: 'plugin-sdk',
     path: 'docs/plugin-sdk',
     routeBasePath: '/plugin-sdk',
@@ -42,51 +37,6 @@ const docs = [
     versions: {
       current: {
         label: '1.x.x',
-      },
-    },
-  },
-  // React Web Core
-
-  // Mobile Core
-
-  // Mobile Prebuilt SDKs
-  {
-    id: 'android',
-    path: 'docs/android',
-    routeBasePath: '/android',
-    versions: {
-      current: {
-        label: '0.14.x',
-      },
-    },
-  },
-  {
-    id: 'flutter',
-    path: 'docs/flutter',
-    routeBasePath: '/flutter',
-    versions: {
-      current: {
-        label: '0.7.x',
-      },
-    },
-  },
-  {
-    id: 'ios',
-    path: 'docs/ios',
-    routeBasePath: '/ios',
-    versions: {
-      current: {
-        label: '1.33.x',
-      },
-    },
-  },
-  {
-    id: 'react-native',
-    path: 'docs/react-native',
-    routeBasePath: '/react-native',
-    versions: {
-      current: {
-        label: '0.25.x',
       },
     },
   },

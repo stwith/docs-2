@@ -39,31 +39,6 @@ const SECTIONS: Section[] = [
     icon: JSIcon,
     section: 'web-core-sdk',
   },
-  // Mobile SDKs
-  {
-    name: 'React Native',
-    docId: 'react-native',
-    icon: ReactIcon,
-    section: 'mobile-sdk',
-  },
-  {
-    name: 'Android',
-    docId: 'android',
-    icon: AndroidIcon,
-    section: 'mobile-sdk',
-  },
-  {
-    name: 'iOS',
-    docId: 'ios',
-    icon: AppleIcon,
-    section: 'mobile-sdk',
-  },
-  {
-    name: 'Flutter',
-    docId: 'flutter',
-    icon: FlutterIcon,
-    section: 'mobile-sdk',
-  },
 
   // Custom Auth SDK
   {
