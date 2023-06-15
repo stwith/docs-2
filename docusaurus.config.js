@@ -174,7 +174,15 @@ const config = {
   trailingSlash: false,
   themes: ['@docusaurus/theme-live-codeblock'],
   clientModules: [require.resolve('./src/client/define-ui-kit.js')],
-
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+    },
+  },
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -249,6 +257,10 @@ const config = {
             position: 'left',
             className: 'new-badge',
 
+          },
+          {
+            type: 'localeDropdown',
+            position: 'left',
           },
           // {
           //   label: 'Resources',

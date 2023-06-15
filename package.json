@@ -5,6 +5,7 @@
   "scripts": {
     "postinstall": "node ./bin/ui-kit/component-docs.cjs && patch-package",
     "docusaurus": "docusaurus",
+    "start-zh": "yarn run start -- --locale zh",
     "start": "docusaurus start",
     "dev": "docusaurus start",
     "build": "docusaurus build",
